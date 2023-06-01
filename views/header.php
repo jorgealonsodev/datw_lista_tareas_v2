@@ -29,7 +29,7 @@ echo "
             <div class='avatar'>
             <img src='./assets/img/avatar/$avatar_session' alt='avatar'>
             </div>
-            <div class='username'> $nombre_session</div>
+            <div class='username'>$nombre_session ($usuario_session)</div>
             <div class='right_menu'>
             <div class='menu'>
               <div class='menu-img'></div>

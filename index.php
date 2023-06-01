@@ -66,10 +66,10 @@
         ?>
         <form action="./includes/user_register.php" method="post">
             <div class="input_registro"> <input class='input_nombre input_r' type="text" id='nombre' name='nombre'
-                    placeholder="Nombre">
+                    placeholder="Nombre" required>
                 <input class='input_apellidos input_r' type="text" id='apellidos' name='apellidos'
-                    placeholder="Apellidos">
-                <input class='input_usuario input_r' type="text" id='usuario' name='usuario' placeholder="Usuario">
+                    placeholder="Apellidos" required>
+                <input class='input_usuario input_r' type="text" id='usuario' name='usuario' placeholder="Usuario" required>
                 <?php
                 if (isset($_GET['usuario-incorrecto'])) {
                     echo "<p class='error'>Error, el usuario ya existe</p>";
