@@ -1,0 +1,4 @@
+.eslintcache
+node_modules
+1_eslint_lint_staged.sh
+2_eslint_prettier_lint_staged
