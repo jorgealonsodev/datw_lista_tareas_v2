@@ -1,6 +1,6 @@
 <?php
-$id_tarea     = $_POST['eliminar_tarea'];
-$lista = $_POST['lista'];
+$id_tarea = $_POST['eliminar_tarea'];
+$lista    = $_POST['lista'];
 
 //Conectamos con la base de datos
 include('../config/db_connection.php');
@@ -23,5 +23,4 @@ if (!$result) {
 // Cerramos conexión con la Base de Datos
 mysqli_close($db);
 
-// header("Location: ../tasks.php?id_list=$id_lista");
 header("Location: ../tasks.php?id_list=$lista");

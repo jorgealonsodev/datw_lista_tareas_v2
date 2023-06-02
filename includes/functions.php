@@ -10,17 +10,13 @@ function crearListaTareas($nombre, $id)
   // Realizamos la consulta y almacenamos la salida en $result
   $result = mysqli_query($db, $query);
 
-
-
   //Comprobamos si hay algun error
   if (!$result) {
     exit(mysqli_error($db));
   }
 
-
   // Cerramos conexión con la Base de Datos
   mysqli_close($db);
-
 
 }
 
@@ -208,7 +204,32 @@ function mostrarDescripcion()
   }
 }
 
-function consultarDatosUsuario()
+function mostrarUsuarios()
 {
 
+  // Conectamos con la base de datos
+
+  include('./config/db_connection.php');
+
+  // Creamos una variable con la consulta
+
+  $query = "SELECT * FROM usuario;";
+
+  //Realizamos la consulta y la almacenamos en $result
+
+  $result = mysqli_query($db, $query);
+
+  //Comprobamos si existen errores en la consulta
+
+  if (!$result) {
+    exit(mysqli_error($db));
+  } else {
+
+    //para obtener todas las tareas del resultado como un arreglo asociativo
+    $usuarios = mysqli_fetch_all($result, MYSQLI_ASSOC);
+
+    return $usuarios;
+    // Cerramos conexión con la Base de Datos
+    mysqli_close($db);
+  }
 }

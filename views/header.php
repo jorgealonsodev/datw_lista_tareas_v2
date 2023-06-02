@@ -36,7 +36,7 @@ echo "
             <div class='menu-content'>
               <!-- Elementos del menú -->";
               if($rol_session == 'admin'){
-                echo "<a href='#'>Administrar</a>";
+                echo "<a href='./administracion.php'>Administrar</a>";
               }
               echo "
               <a href='./configuracion.php'>Configuración</a>

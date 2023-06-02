@@ -24,7 +24,7 @@
                     <div class="input_list">
                         <!-- <input class="title_list" type="text" maxlength="25"> -->
                         <textarea class="title_list" id="mensaje" name="name_list" rows="2" cols="50" rows="1"
-                            maxlength="100" placeholder=""></textarea>
+                            maxlength="100" placeholder="" required></textarea>
                         <div class="icon">
                             <button type="submit" class="button_create_list">
                                 <img src="./assets/img/icon/boton-circular-plus.png" alt="crear_lista">

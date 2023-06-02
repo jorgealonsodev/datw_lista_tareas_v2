@@ -31,7 +31,7 @@
   font-weight: 300;
   font-size: 4rem;
 }
-.titulo img{
+.titulo img {
   height: 6rem;
 }
 
@@ -143,7 +143,7 @@
   border: 1px solid white; */
   color: white;
 }
-.logo img{
+.logo img {
   height: 4rem;
 }
 .title_h1 a {
@@ -282,7 +282,7 @@
   flex-direction: column;
   /* border: 1px solid white; */
   width: 80%;
-  gap: 1rem
+  gap: 1rem;
 }
 .name_task_block {
   display: flex;
@@ -1182,4 +1182,219 @@
 }
 .ocultar {
   display: none;
+}
+
+/* ---------- Administración ----------- */
+
+.contenedor_administracion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 50rem;
+  border: 1px solid white;
+  color: white;
+}
+.contenedor_columnas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid white;
+  height: 4rem;
+  width: 100%;
+}
+.contenedor_selector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2%;
+  height: 2rem;
+  border: 1px solid white;
+}
+.contenedor_selector_oculto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2%;
+  height: 2rem;
+  border: 1px solid white;
+  visibility: hidden;
+}
+
+.selector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 2rem;
+  border: 1px solid white;
+}
+.contenedor_columna_usuario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 2rem;
+  border: 1px solid white;
+}
+.titulo_columna_usuario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 2rem;
+  border: 1px solid white;
+}
+.contenedor_columna_nombre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 2rem;
+  border: 1px solid white;
+}
+.titulo_columna_nombre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 2rem;
+  border: 1px solid white;
+}
+.contenedor_columna_apellidos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 2rem;
+  border: 1px solid white;
+}
+.titulo_columna_apellidos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 2rem;
+  border: 1px solid white;
+}
+.contenedor_columna_rol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 2rem;
+  border: 1px solid white;
+}
+.titulo_columna_rol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 2rem;
+  border: 1px solid white;
+}
+.contenedor_columna_editar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2%;
+  height: 2rem;
+  border: 1px solid white;
+}
+.contenedor_columna_editar_oculto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2%;
+  height: 2rem;
+  border: 1px solid white;
+  visibility: hidden;
+}
+.contenedor_columna_eliminar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2%;
+  height: 2rem;
+  border: 1px solid white;
+}
+.contenedor_columna_eliminar_oculto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2%;
+  height: 2rem;
+  border: 1px solid white;
+  visibility: hidden;
+}
+.separador {
+  width: 90%;
+  border: 1px solid white;
+}
+.contenedor_datos_usuarios {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 2rem;
+  border: 1px solid white;
+}
+.vista_datos_usuarios {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid white;
+  height: 4rem;
+  width: 100%;
+  border: 1px solid white;
+}
+.contenido_contenedor_datos_usuarios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border: 1px solid white;
+  height: 8rem;
+  width: 100%;
+  border: 1px solid white;
+}
+.contenedor_columna_usuario_avatar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 10%;
+  height: 2rem;
+  border: 1px solid white;
+}
+.avatar_usuario_admin {
+  width: 20%;
+  height: 80%;
+  border: 1px solid white;
+}
+.nombre_usuario_admin {
+  width: 75%;
+  height: 80%;
+  border: 1px solid white;
+}
+
+.editor_datos_usuarios {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid white;
+  height: 4rem;
+  width: 100%;
+  border: 1px solid white;
+}
+.selector input[type="checkbox"] {
+  transform: scale(1.5);
+  border: none;
+  
+}
+.contenedor_columna_actualizar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2%;
+  height: 2rem;
+  border: 1px solid white;
 }
